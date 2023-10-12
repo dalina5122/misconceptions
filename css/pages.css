@@ -1,0 +1,404 @@
+#screen1{
+    width: 1450px;
+    height: 800px;
+    margin: none;
+    position: relative;
+}
+
+#screen2{
+    width: 1465px;
+    height: 500px;
+    margin: none;
+    position: absolute;
+    top: 700px;
+}
+
+#click{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    top: 100px;
+    left: 130px;
+}
+
+/* character standing */
+#inp, #amp, #aup, #bzp, #chp, #frp, #kop, #nip, #rop, #rup{
+    position: absolute;
+    height: 500px;
+    bottom: 40px;
+}
+
+/* initial gray screen over board */
+#projector{
+    position: absolute;
+    width: 745px;
+    height: 400px;
+    bottom: 285px;
+    left: 220px;
+}
+
+/* remote */
+#remote{
+    height: 80px;
+    width: 50px;
+    position: absolute;
+    left: 1085px;
+    bottom: 340px;
+}
+
+/* titles */
+#titlein{
+    position: absolute;
+    width: 150px;
+    height: 450px;
+    bottom: 270px;
+    left: 935px;
+}
+#titleam{
+    position: absolute;
+    width: 150px;
+    height: 420px;
+    bottom: 290px;
+    left: 935px;
+}
+#titlebz{
+    position: absolute;
+    width: 150px;
+    height: 420px;
+    bottom: 320px;
+    left: 935px;
+}
+#titleau{
+    position: absolute;
+    width: 150px;
+    height: 420px;
+    bottom: 265px;
+    left: 925px;
+}
+#titlech{
+    position: absolute;
+    width: 150px;
+    height: 420px;
+    bottom: 290px;
+    left: 925px;
+}
+#titlefr{
+    position: absolute;
+    width: 100px;
+    height: 400px;
+    bottom: 320px;
+    left: 960px;
+}
+#titleko{
+    position: absolute;
+    width: 100px;
+    height: 400px;
+    bottom: 280px;
+    left: 960px;
+}
+#titleni{
+    position: absolute;
+    width: 100px;
+    height: 400px;
+    bottom: 280px;
+    left: 960px;
+}
+#titlero{
+    position: absolute;
+    width: 100px;
+    height: 400px;
+    bottom: 280px;
+    left: 955px;
+}
+#titleru{
+    position: absolute;
+    width: 100px;
+    height: 400px;
+    bottom: 280px;
+    left: 955px;
+}
+
+/* finger pointing to light switch */
+#finger{
+    position: absolute; 
+    left: 1075px;
+    top: 350px;
+    width: 60px;
+    height: 50px;
+
+    /* animation of finger */
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+
+/* animation of finger */
+.bounce{
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+@keyframes bounce{
+    0%   {transform: scale(1,1)    translateY(0); }
+    10%  {transform: scale(1.1,.9) translateY(0); }
+    30%  {transform: scale(.9,1.1) translateY(-30px); }
+    50%  {transform: scale(1,1)    translateY(0); }
+    100% {transform: scale(1,1)    translateY(0); }
+}
+
+/* door to go back */
+#door{
+    position: absolute;
+    width: 350px;
+    height: 530px;
+    top: 170px;
+    left: 1130px;
+}
+#back{
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    left: 1270px;
+    top: 445px;
+}
+
+/* AFTER SCROLL DOWN */
+
+/* map on phone */
+#mapin, #mapam, #mapau, #mapbz, #mapch, #mapfr, #mapko, #mapni, #mapro, #mapru{
+    position: absolute;
+    width: 91px;
+    left: 155px;
+    top: 970px;
+}
+
+/* table */
+#tablein{
+    position: absolute;
+    left: 330px;
+    top: 930px;
+    width: 250px;
+    height: 250px;
+}
+#tableam{
+    position: absolute;
+    left: 330px;
+    top: 930px;
+    width: 250px;
+    height: 250px;
+}
+#tableau{
+    position: absolute;
+    left: 330px;
+    top: 930px;
+    width: 250px;
+    height: 250px;
+}
+#tablebz{
+    position: absolute;
+    left: 330px;
+    top: 930px;
+    width: 250px;
+    height: 250px;
+}
+#tablech{
+    position: absolute;
+    left: 330px;
+    top: 930px;
+    width: 250px;
+    height: 250px;
+}
+#tablefr{
+    position: absolute;
+    left: 330px;
+    top: 930px;
+    width: 250px;
+    height: 250px;
+}
+#tableko{
+    position: absolute;
+    left: 330px;
+    top: 930px;
+    width: 250px;
+    height: 250px;
+}
+#tableni{
+    position: absolute;
+    left: 330px;
+    top: 930px;
+    width: 250px;
+    height: 250px;
+}
+#tablero{
+    position: absolute;
+    left: 330px;
+    top: 930px;
+    width: 250px;
+    height: 250px;
+}
+#tableru{
+    position: absolute;
+    left: 330px;
+    top: 930px;
+    width: 250px;
+    height: 250px;
+}
+
+/* video */
+#vid{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    top: 920px;
+    left: 1000px;
+}
+
+/* text on 2nd page of book */
+#embin{
+    position: absolute;
+    top: 930px;
+    left: 620px;
+    width: 100px;
+    height: 200px;
+}
+#embam{
+    position: absolute;
+    top: 910px;
+    left: 620px;
+    width: 130px;
+    height: 200px;
+}
+#embau{
+    position: absolute;
+    top: 910px;
+    left: 620px;
+    width: 180px;
+    height: 180px;
+}
+#embbz{
+    position: absolute;
+    top: 910px;
+    left: 620px;
+    width: 120px;
+    height: 150px;
+}
+#embch{
+    position: absolute;
+    top: 940px;
+    left: 620px;
+    width: 100px;
+    height: 160px;
+}
+#embfr{
+    position: absolute;
+    top: 910px;
+    left: 600px;
+    width: 130px;
+    height: 200px;
+}
+#embko{
+    position: absolute;
+    top: 910px;
+    left: 620px;
+    width: 100px;
+    height: 160px;
+}
+#embni{
+    position: absolute;
+    top: 910px;
+    left: 560px;
+    width: 220px;
+    height: 200px;
+}
+#embro{
+    position: absolute;
+    top: 950px;
+    left: 610px;
+    width: 100px;
+    height: 170px;
+}
+#embru{
+    position: absolute;
+    top: 910px;
+    left: 610px;
+    width: 120px;
+    height: 170px;
+}
+
+/* text */
+#txtin{
+    position: absolute;
+    top: 930px;
+    left: 720px;
+    width: 150px;
+    height: 220px;
+}
+#txtam{
+    position: absolute;
+    top: 930px;
+    left: 740px;
+    width: 130px;
+    height: 220px;
+}
+#txtau1{
+    position: absolute;
+    top: 1100px;
+    left: 610px;
+    width: 130px;
+    height: 100px;
+}
+#txtau2{
+    position: absolute;
+    top: 1100px;
+    left: 740px;
+    width: 130px;
+    height: 100px;
+}
+#txtbz{
+    position: absolute;
+    top: 930px;
+    left: 740px;
+    width: 130px;
+    height: 220px;
+}
+#txtch{
+    position: absolute;
+    top: 930px;
+    left: 740px;
+    width: 130px;
+    height: 220px;
+}
+#txtfr{
+    position: absolute;
+    top: 930px;
+    left: 730px;
+    width: 150px;
+    height: 220px;
+}
+#txtko{
+    position: absolute;
+    top: 930px;
+    left: 730px;
+    width: 150px;
+    height: 240px;
+}
+#txtni{
+    position: absolute;
+    top: 930px;
+    left: 740px;
+    width: 130px;
+    height: 220px;
+}
+#txtro{
+    position: absolute;
+    top: 930px;
+    left: 720px;
+    width: 130px;
+    height: 220px;
+}
+#txtru{
+    position: absolute;
+    top: 930px;
+    left: 740px;
+    width: 130px;
+    height: 220px;
+}

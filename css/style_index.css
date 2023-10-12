@@ -1,0 +1,155 @@
+#noticeb{
+    position: relative; 
+    width: 100%;
+    height: 800px;
+    margin: none;
+}
+
+#arrow{
+    position: absolute; 
+    left: 1260px;
+    top: 670px;
+    width: 75px;
+    height: 75px;
+
+    /* animation of arrow */
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+
+/* animation of arrow */
+.bounce{
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+@keyframes bounce{
+    0%   {transform: scale(1,1)    translateY(0); }
+    10%  {transform: scale(1.1,.9) translateY(0); }
+    30%  {transform: scale(.9,1.1) translateY(-30px); }
+    50%  {transform: scale(1,1)    translateY(0); }
+    100% {transform: scale(1,1)    translateY(0); }
+}
+
+#people{
+    width: 100%;
+    height: 100%
+}
+
+html{
+    scroll-behavior: smooth;  /* smoother slide down */
+    background-color: #797873;
+}
+
+#note1{
+    position: absolute; 
+    left: 150px;
+    top: 400px;
+    width: 240px;
+    height: 240px;
+}
+
+#note2{
+    position: absolute; 
+    left: 960px;
+    top: 400px;
+    width: 300px;
+    height: 300px;
+}
+
+
+
+/* SECOND PART OF PAGE */
+
+#room{
+    position: relative;
+    width: 100%;
+    height: 800px;
+    margin: none;
+}
+
+#am, #ch, #fr, #au, #bz, #in, #ko, #ni, #ro, #ru{
+    position: absolute;
+    height: 220px;
+    width: 130px;
+    bottom: -700px;
+} 
+
+#am{
+    left: 15px;
+    top: 1240px;
+    height: 230px;
+    width: 150px;
+}
+
+#ch{
+    left: 170px;
+    top: 1250px; 
+    height: 240px;
+    width: 170px;   
+}
+
+#fr{
+    left: 330px;
+    top: 1250px;
+    width: 140px;
+    height: 220px;
+}
+
+#au{
+    left: 470px;
+    top: 1260px;
+    height: 230px;
+    width: 170px;
+
+}
+
+#bz{
+    left: 630px;
+    width: 160px;
+    height: 240px;
+    top: 1250px;
+}
+
+#in{
+    left: 770px;
+    width: 160px;
+    height: 240px;
+    top: 1250px;
+}
+
+#ko{
+    left: 910px;
+    width: 160px;
+    height: 240px;
+    top: 1240px;
+}
+
+#ni{
+    left: 1040px;
+    top: 1240px;
+    width: 160px;
+    height: 240px;
+}
+
+#ro{
+    left: 1170px;
+    top: 1240px;
+    width: 160px;
+    height: 230px;
+}
+
+#ru{
+    left: 1300px;
+    top: 1245px;
+    width: 150px;
+    height: 230px;
+}
+
+
+
+
+
+
+
+
